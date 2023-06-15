@@ -1,0 +1,217 @@
+/*add styles for body*/
+body{
+	background-image:url("../images/picture(2).jpg"); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 1vw;
+
+}
+/*add styles for header*/
+.head{
+    background-color: black;
+    opacity: 70%;
+    font-size: 1vw;
+}
+/*add styles for logo*/
+#logo{
+    float: left;
+}
+/*add styles for login*/
+#login{
+    float: right;
+}
+/*add styles for note*/
+#note{
+    text-align: center;
+    font-size: 25px;
+    font-weight:bold;
+    color: white;
+}
+
+/*add styles for navigation bar*/
+ul#navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1vw;
+}
+/*add location to navigation bar*/
+li#navi{
+    float: left;
+}
+
+/*add text styles for navigation bar*/
+li a{
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/*mouse over*/
+li a:hover{
+    background-color: rgb(16, 208, 83);
+}
+/*add style to active link*/
+li a.active{
+    background-color: #2196F3;
+    color: white;
+}
+
+/*search bar styles*/
+#navi input[type=text]{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+    border: none;
+    font-size: 15px;
+}
+
+.img1{
+
+    font-size: 1vw;
+}
+/*add styles for phone*/
+.phone{
+	border: 2px outset rgb(65, 65, 69);
+    border-style: outset;
+    background-image:url("../images/picture(8).jpg");
+    text-align: left;
+    height: 10%;
+    width: 15%;
+    margin-top: 2px;
+	margin-left: 10px;
+    font-style: oblique;
+    font-size: 140%;
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+   
+}
+/*add styles for email*/
+.email{
+	border: 2px outset rgb(65, 65, 69);
+    border-style: outset;
+    background-image:url("../images/picture(9).jpg");
+    background-size: 10%;
+    text-align: left;
+    height: 10%;
+    width: 15%;
+    margin-top: 2px;
+	margin-left: 10px;
+    font-style: oblique;
+    font-size: 140%;
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+}
+/*add styles for form*/
+form{
+	width:800px;
+	margin:auto;
+	padding:40px;
+	background-color:rgb(197, 182, 182);
+	font-size:14px;
+	font-family:'Times New Roman', Times, serif;
+	color:rgb(17, 6, 6);
+    opacity: 75%;
+    font-size: 1vw;
+}
+/*add styles for button*/
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+/*add styles for button mouse over*/
+.submitBtn:hover{
+	background-color:rgb(140, 219, 140);
+}
+/*add styles for form*/
+.container {
+    position: relative;
+    top: -450px;
+    left:200px ;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1vw;
+   
+  }
+/*add styles for footer background*/
+footer{
+    background-color: black;
+    opacity: 70%;
+    height: 220px;
+    padding: 8px;
+    font-size: 1vw;
+}
+/*add styles for footer left coner*/
+.first{
+    color: white;
+    float: left;
+}
+/*add styles for footer middle*/
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+/*add styles for footer right coner*/
+.third{
+    color: white;
+    float: right;
+}
+/*add font styles for footer*/
+h5{
+  font-size: 1vw;
+}
+
+/*add styles for quick links*/
+.foot{
+  text-decoration: none;
+  color: white;
+}
+/*add styles for icons*/
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+}
+/*add styles for on mouse icons*/
+.fa:hover{
+  opacity: 0.7s;
+}
+/*add styles for icon facebook*/
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+/*add styles for twitter*/
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+/*add styles for linkedin*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/*add styles for instagram*/
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+

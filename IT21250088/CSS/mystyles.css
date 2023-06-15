@@ -1,0 +1,199 @@
+/*add styles for header*/
+header{
+    background-color: rgb(13, 14, 13);
+    opacity: 100%;
+    font-size: 1vw;
+}
+/*add styles for body*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+
+}
+/*add styles for logo*/
+#logo{
+    float: left;
+    opacity:80%;
+}
+/*add styles for login*/
+#login{
+    float: right;
+    opacity:80%;
+}
+/*add styles for note*/
+#note{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(5, 4, 106);
+    opacity:80%;
+}
+/*add styles for navigation bar*/
+ul#navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 80%;
+    font-size: 1vw;
+}
+/*add location to navigation bar*/
+li#navigation{
+    float: left;
+    opacity:80%;
+}
+/*search bar styles*/
+.searchbar{
+	float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 17px;
+    border: 20px;
+    border-radius: 8px;
+    opacity:80%;
+}
+/*add text styles for navigation bar*/
+li a{
+    color:rgb(235, 229, 229);
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    padding: 12px;
+    text-decoration: none;
+    opacity:80%;
+}
+/*mouse over*/
+li a:hover{
+	background-color:rgb(16, 208, 83);
+    opacity:80%;
+}
+/*search bar styles*/
+#navi input[type=text]{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  margin-bottom: 3px;
+  border: none;
+  font-size: 15px;
+}
+/*add styles for video*/
+#wvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity:60%
+}
+/*add styles for topic*/
+.topic {
+    text-align: center;
+    color: #703209;
+    font-size: 30px;
+
+  }
+/*add styles for paragraph*/
+.content {
+    position: relative;
+    font-size: 150%;
+    bottom: 0;
+    left:250px ;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    padding: 20px;
+}
+/*add styles for button*/
+.ViewUs{
+    background-color: green;
+     border: none;
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     font-family: Georgia;
+     font-weight: bold;
+     margin: 4px 2px;
+   border-radius: 6px;
+   width: 6o0px
+}
+/*add styles for mouse over to button*/
+#btn4{
+    cursor: pointer;
+}
+/*add styles for footer background*/
+footer{
+    background-color: black;
+    opacity: 70%;
+    height: 220px;
+    padding: 8px;
+    font-size: 1vw;
+}
+/*add styles for footer left coner*/
+.first{
+    color: white;
+    float: left;
+}
+/*add styles for footer middle*/
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+/*add styles for footer right coner*/
+.third{
+    color: white;
+    float: right;
+}
+/*add font styles for footer*/
+h5{
+  font-size: 1vw;
+}
+/*add styles for quick links*/
+.foot{
+  text-decoration: none;
+  color: white;
+}
+/*add styles for icons*/
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+}
+/*add styles for on mouse icons*/
+.fa:hover{
+  opacity: 0.7s;
+}
+/*add styles for icon facebook*/
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+/*add styles for twitter*/
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+/*add styles for linkedin*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/*add styles for instagram*/
+.fa-instagram {
+  background: purple;
+  color: white;
+}
