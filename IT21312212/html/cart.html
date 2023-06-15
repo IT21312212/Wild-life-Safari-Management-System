@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>EmbaceTheWild/Choose Packages</title>
+
+ <!--cdn css link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!--css file link-->
+  <link rel="stylesheet" href="../css/style1.css">
+
+  <!--php file link-->
+
+
+  </head>
+
+<body>
+
+  <!--Header-->
+  <header class="head">
+
+    <div id="logo">
+        <a href="../../IT21309038/html/welcome.html"><img class="logo" src="../images/logo.jpg" alt="Image Not Found" width="100px" height="100px"></a>
+     </div>
+
+    <div id="login">
+        <a href=""><img class="login" src="../images/login.png" alt="Image Not Found" width="100px" height="100px"></a>
+    </div>
+
+    <div id="note">
+        <p>Tired of scrolling</p>
+        <p>Lets check out some</p>
+    </div>
+
+    <ul id="navi">
+        <li id="navi"><a href = "../../IT21309038/html/home.html">Home</a></li>
+        <li id="navi"><a href = "">Login</a></li>
+        <li id="navi"><a href = "packages.html">Packages</a></li>
+        <li id="navi"><a href = "../../IT21312380/html/Offer.html">Offers</a></li>
+        <li id="navi"><a href = "cart.html">Cart</a></li>
+        <li id="navi"><a href = "../../IT21250088/html/AboutUs.html">About Us</a></li>
+        <li id="navi"><a href = "../../IT21250088/html/contactUs.html">Contact Us</a></li>
+        <input type="text" placeholder="Search..">
+    </ul>
+
+</header>
+
+    <!--2nd page title-->
+
+    <h1 class="heading1">
+      <span>C</span>
+      <span>A</span>
+      <span>R</span>
+      <span>T</span>
+     
+  </h1>
+
+  <br><br><br><br><br><br><br>
+
+<!--image slider-->
+
+<div class="img-slider">
+  <div class="slide active">
+    <img src="../images/yala1.jpg" alt="">
+    <div class="info">
+      <h2>YALA</h2>
+      <p>Yala National Park is the island’s principle national park and offers the greatest diversity of animal and birdlife in the country.</p>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="../images/yala2.jpg" alt="">
+    <div class="info">
+    </div>
+  </div>
+
+   <!--image slider 2-->
+  <div class="slide">
+    <img src="../images/Sinharaja 1.jpg" alt="">
+    <div class="info">
+      <h2>Singharaja</h2>
+      <p>Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka.</p>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="../images/1.webp" alt="">
+    <div class="info">
+    </div>
+  </div>
+
+  <!--image slider 3-->
+  <div class="slide">
+    <img src="../images/kumana-birds.jpg" alt="">
+    <div class="info">
+      <h2>KUMANA</h2>
+      <p></p>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="../images/2.jpg" alt="">
+    <div class="info">
+    </div>
+  </div>
+
+ <!--image slider navigation btns-->
+  <div class="navigation">
+    <div class="btn active"></div>
+    <div class="btn"></div>
+    <div class="btn"></div>
+    <div class="btn"></div>
+    <div class="btn"></div>
+    <div class="btn"></div>
+  </div>
+</div>
+
+
+<!--form section start-->
+<div class="row">
+
+<form action="../php/pack.php" method="post">
+
+  <!--input box numbers-->
+<div class="inputBox">
+    <h4>Number of persons</h4>
+    <input type="number" placeholder="number of guests" name="Noperson" id="id">
+</div>
+
+ <!--input box text-->
+<div class="inputBox">
+    <h4>Mobile number for Validation</h4>
+    <input type="text"  id="mobile" placeholder="07x-xxxxxxx" name="Mobile">
+  </div>
+
+  <!--input box date-->
+<div class="inputBox">
+    <h4>Booked For </h4>
+    <input type="date" name="Date">
+  </div>
+
+   <!--dropdown 1-->
+  <h4>Vehicle Type</h4>
+  <select id="Vehicle" name="cars">
+    <option value="ATV">Select</option>
+    <option value="ATV">ATV</option>
+    <option value="MiniVan">MiniVan</option>
+    <option value="4*4 Jeep">4*4 Jeep</option>
+    <option value="Safari Bus">Safari Bus</option>
+    <option value="MiniBus">MiniBus</option>
+  </select>
+
+  <!--dropdown 2-->
+  <h4>Select A Location</h4>
+  <select id="Vehicle" name="cars1">
+    <option value="Yala">Select</option>
+    <option value="YALA">YALA</option>
+    <option value="SINGHARAJA">SINGHARAJA</option>
+    <option value="KUMANA">KUMANA</option>
+
+  </select>
+
+   <!--dropdown 3-->
+  <h4>Select A Package</h4>
+  <select id="Vehicle" name="cars2" onchange="packages(this.value)">
+    <option value="">Select</option>
+    <option value="BASIC" id="basic" >BASIC</option>
+    <option value="STANDARD" id="standard">STANDARD</option>
+    <option value="PREMIUM" id="premium">PREMIUM</option>
+  </select>
+
+  <!--reset btn-->
+  <input type="Reset" class="Reset" >
+
+   <!--confirm btn-->
+  <input type="submit" class="Conform" value="Conform And Pay" name="submit">
+
+
+  <hr>
+
+  <!--text area js input data-->
+  <textarea type="text" id="1" name="tot" placeholder="Package Amount" rows="2" cols="25"> </textarea>
+  <textarea type="text" id="2" name="dis" placeholder="Discount" rows="2" cols="25"> </textarea>
+  <textarea type="text" id="3" name="amo" placeholder="Bill amount" rows="2" cols="25"> </textarea>
+
+</div>
+  </form>
+
+  <br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
+  
+
+    <!--footer-->
+  <footer>
+
+    <div class="first">
+      Find Us
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+      <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+      <h4>Embrace The Wild</h4>
+      <h5>This is the only place to make your exploring dream come true</h5>
+      <h5>Tel - 0714985511</h5>
+      <h5>Email - janinduudnaaa2000@gmail.com</h5>
+  </div>
+
+  <div class="third">
+      Locate Us
+      <a href="https://www.google.com/maps/place/Sri+Lanka+Institute+of+Information+Technology/@6.9146775,79.9707558,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae256db1a6771c5:0x2c63e344ab9a7536!8m2!3d6.9146775!4d79.9729445" style="color: white;"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 25px;"></i></a>
+      <br><br><br><br><br><br><br>
+      <h5>Created by MLB_06.01_04</h5>
+  </div>
+
+  <div class="second">
+      <h3>Quick Links</h3>
+      <a class="foot" href="Gallery.html">Gallery</a><br>
+      <a class="foot" href="../../IT21250088/html/AboutUs.html">Privacy & Policy</a><br>
+      <a class="foot" href="../../IT21250088/html/AboutUs.html">Terms & Conditions</a><br>
+  </div>
+
+</footer>
+
+
+<!--js file link-->
+  <script src="../js/project1.js"></script>
+
+  <!--swiper js link-->
+
+ 
+ </body>
+ </html>
